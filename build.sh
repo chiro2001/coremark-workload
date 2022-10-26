@@ -9,4 +9,5 @@ cd riscv-coremark
 echo "Moving Coremark binary to overlay"
 cd ..
 mkdir -p overlay
-mv riscv-coremark/coremark.riscv overlay/coremark.riscv
+mv riscv-coremark/*.riscv overlay/
+mv riscv-coremark/*.bin overlay/
