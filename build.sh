@@ -11,4 +11,5 @@ cd ..
 mkdir -p overlay
 mv riscv-coremark/*.riscv* overlay/
 mv riscv-coremark/*.bin* overlay/
-mv riscv-coremark/*.dump* overlay/
+# mv riscv-coremark/*.dump* overlay/
+mv riscv-coremark/*.asm* overlay/
